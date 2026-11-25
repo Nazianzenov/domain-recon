@@ -3,6 +3,7 @@
   "description": "Investigate a single domain from the Firefox sidebar: DNS, RDAP, passive DNS, M365 tenant, email providers, favicon hashes, threat intel and AI brand checks.",
   "private": true,
   "version": "0.1.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "wxt -b firefox",

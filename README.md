@@ -222,3 +222,7 @@ Reviewer build instructions (also valid for AMO's automatic `build-for-amo` buil
 All third-party code comes unmodified from npm and is listed in `package.json` / `package-lock.json`: Preact, idb-keyval and spark-md5. `web-ext lint` reports 0 errors. It reports one `UNSAFE_VAR_ASSIGNMENT` warning inside Preact's runtime, from Preact's generic `dangerouslySetInnerHTML` support. This extension never uses that prop and never renders fetched data as HTML.
 
 The add-on ID in `wxt.config.ts` is a random GUID. Keep it unchanged once the add-on is signed: Firefox treats a different ID as a different add-on (new storage, no updates). Forks that publish their own build should generate their own ID.
+
+## License
+
+[MIT](LICENSE). Bundled third-party code keeps its own licence: Preact (MIT), idb-keyval (Apache-2.0) and spark-md5 (MIT, dual-licensed with WTFPL).
