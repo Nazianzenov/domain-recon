@@ -1,0 +1,18 @@
+node_modules/
+.output/
+.wxt/
+coverage/
+*.log
+.DS_Store
+web-ext-artifacts/
+.vitest/
+# secrets and signing artefacts (never commit)
+.env
+.env.*
+*.xpi
+*.zip
+.amo-upload-uuid
+.web-extension-id
+# local tool settings
+.claude/
+.vscode/
